@@ -106,13 +106,8 @@ function MonthlyReport() {
 
         const balance = totalIncomeAmount - totalExpenseAmount;
 
-<<<<<<< HEAD
         const totalRow = ['', 'Total', '', `AED ${totalExpenseAmount.toLocaleString()}`, `AED ${totalIncomeAmount.toLocaleString()}`];
         const balanceRow = ['', 'Balance', '', '', `AED ${balance.toLocaleString()}`];
-=======
-        const totalRow = ['', 'Total', '', `AED ${totalExpenseAmount}`, `AED ${totalIncomeAmount}`];
-        const balanceRow = ['', 'Balance', '', '', `AED ${balance.toFixed(2)}`];
->>>>>>> 93ede6f2a4ff650b8ef72d28f02bfdb6ba07e530
         tableRows.push(totalRow, balanceRow);
 
         doc.autoTable({
@@ -221,22 +216,16 @@ function MonthlyReport() {
 
 
             <div className='card shadow col-md-4 p-3 mt-3 '>
-<<<<<<< HEAD
+
                 <h5 className='text text-success '>Total Income: AED {totalIncome.toLocaleString()}</h5>
                 <h5 className='text text-danger '>Total Expense: AED {totalExpense.toLocaleString()}</h5>
                 <h5 className='text text-primary '>Balance: AED {balance.toLocaleString()}</h5>
-=======
-                <h5 className='text text-success '>Total Income: AED {totalIncome.toFixed(2)}</h5>
-                <h5 className='text text-danger '>Total Expense: AED {totalExpense.toFixed(2)}</h5>
-                <h5 className='text text-primary '>Balance: AED {balance.toFixed(2)}</h5>
->>>>>>> 93ede6f2a4ff650b8ef72d28f02bfdb6ba07e530
+
             </div>
         </div>
     );
 }
 
-<<<<<<< HEAD
+
 export default MonthlyReport;
-=======
-export default MonthlyReport;
->>>>>>> 93ede6f2a4ff650b8ef72d28f02bfdb6ba07e530
+
