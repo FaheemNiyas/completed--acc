@@ -1,0 +1,151 @@
+#sidebar {
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  border-radius: 25px;
+<<<<<<< HEAD
+  overflow-y: auto;
+  /* Enable vertical scrollbar */
+=======
+  display: flex;
+  flex-direction: column;
+
+>>>>>>> 93ede6f2a4ff650b8ef72d28f02bfdb6ba07e530
+
+  @media (min-width: 1920px) {
+    width: 350px;
+  }
+}
+
+#sidebar a {
+  color: #ffffff;
+  border-radius: 25px !important;
+}
+
+<<<<<<< HEAD
+/* Scrollbar for #sidebar */
+#sidebar::-webkit-scrollbar {
+  width: 2px;
+  
+  /* Increase the width of the scrollbar */
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+/* Scrollbar for #content */
+#content::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+}
+
+#content::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+#sidebar a:hover,
+#sign-out:hover {
+=======
+
+.active-link {
+  background-color: #ffffff;
+}
+
+#sidebar a:hover,
+#si#sign-out:hover {
+>>>>>>> 93ede6f2a4ff650b8ef72d28f02bfdb6ba07e530
+  background-color: #ffffff;
+  color: black !important;
+  border-radius: 25px !important;
+}
+
+/* Adjusting dropdown text color */
+.dropdown-menu a {
+<<<<<<< HEAD
+  color: #ffffff !important;
+=======
+  color: #ffffff !important; /* Dropdown text color */
+>>>>>>> 93ede6f2a4ff650b8ef72d28f02bfdb6ba07e530
+}
+
+/* Adjusting dropdown background */
+.dropdown-menu {
+<<<<<<< HEAD
+  background-color: #1f1f1f;
+=======
+  background-color: #1f1f1f; /* Dropdown background color */
+}
+
+.dropdown-menu {
+>>>>>>> 93ede6f2a4ff650b8ef72d28f02bfdb6ba07e530
+  margin-top: 6px !important;
+  width: 100%;
+  left: auto;
+  border-radius: 20px;
+<<<<<<< HEAD
+}
+=======
+  }
+>>>>>>> 93ede6f2a4ff650b8ef72d28f02bfdb6ba07e530
+
+#content {
+  margin-right: 10px !important;
+  padding: 20px;
+  z-index: 0;
+<<<<<<< HEAD
+  overflow-y: auto;
+  /* Enable vertical scrollbar */
+=======
+>>>>>>> 93ede6f2a4ff650b8ef72d28f02bfdb6ba07e530
+
+  @media (min-width: 1920px) {
+    margin-right: 70px !important;
+  }
+}
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 93ede6f2a4ff650b8ef72d28f02bfdb6ba07e530
+#sign-out {
+  margin-top: 35vh;
+
+  @media (min-width: 1920px) {
+    margin-top: 57vh;
+  }
+
+  /* Adjust for laptops/tablets */
+  @media (max-width: 1200px) {
+    margin-top: 30vh;
+  }
+
+  /* Adjust for tablets */
+  @media (max-width: 992px) {
+    margin-top: 40vh;
+  }
+
+  /* Adjust for mobile screens */
+  @media (max-width: 768px) {
+    margin-top: 10vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    display: none;
+  }
+
+  #content {
+    margin-left: 0;
+  }
+}
